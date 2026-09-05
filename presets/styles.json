@@ -1,5 +1,6 @@
 {
   "_comment": "Presets actifs utilisés par scripts/retouch.py. Alimentés depuis docs/style-options.md (catalogue complet, plus large que ce qui est ici). Mis à jour par la recherche périodique (tous les 10 photos, voir data/state.json).",
+  "_musique_mood_note": "Les champs musique_mood référencent les artistes réels les plus écoutés de Bastien sur Spotify (constaté le 2026-09-05 via 'mes artistes les plus écoutés' : Eminem, Central Cee, Linkin Park, Fort Minor, Kanye West) plutôt qu'un genre générique deviné — voir .claude/agents/music-curator.md pour la méthode de recherche à deux temps.",
   "version": 1,
   "styles": [
     {
@@ -14,7 +15,7 @@
       "sharpen": {"radius": 1.4, "amount": 0.5, "threshold": 3},
       "clarity": {"radius": 50, "amount": 0.08},
       "vignette_opacity": 0.12,
-      "musique_mood": "chill lumineux décontracté, indie pop ou soul douce",
+      "musique_mood": "posé et mélodique, hip-hop plus calme dans la veine d'Eminem ou de Central Cee moins agressif",
       "source": "docs/research/photo-retouching-methods.md (2026-09-05)"
     },
     {
@@ -29,7 +30,7 @@
       "sharpen": {"radius": 1.5, "amount": 0.65, "threshold": 3},
       "clarity": {"radius": 50, "amount": 0.12},
       "vignette_opacity": 0.22,
-      "musique_mood": "confiant smooth, hip-hop ou R&B posé",
+      "musique_mood": "confiant stylé, dans la veine de Central Cee ou Kanye West",
       "source": "docs/research/photo-retouching-methods.md (2026-09-05)"
     },
     {
@@ -44,7 +45,7 @@
       "sharpen": {"radius": 1.6, "amount": 0.7, "threshold": 3},
       "clarity": {"radius": 45, "amount": 0.16},
       "vignette_opacity": 0.32,
-      "musique_mood": "sombre atmosphérique, électro ou alternatif",
+      "musique_mood": "sombre et intense, rock-rap dans la veine de Linkin Park ou Fort Minor",
       "source": "docs/research/photo-retouching-methods.md (2026-09-05)"
     }
   ]
