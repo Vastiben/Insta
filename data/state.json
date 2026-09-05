@@ -1,0 +1,7 @@
+{
+  "photos_processed": 0,
+  "last_research_at_count": 0,
+  "last_research_date": "2026-09-05",
+  "research_interval": 10,
+  "_comment": "photos_processed s'incrémente à chaque photo traitée par la skill insta-post. Quand (photos_processed - last_research_at_count) >= research_interval, la skill lance une recherche web (voir docs/style-options.md) avant de continuer, puis met à jour last_research_at_count/last_research_date."
+}
